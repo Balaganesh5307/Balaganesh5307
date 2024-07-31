@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,500&family=Rubik:wght@300&family=Whisper&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<style type="text/css">
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 1rem 5rem;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    background:black;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 600;
+    color: yellow;
+}
+
+#navbarSupportedContent a{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease-out;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid yellow;
+    transform: scale(1.1);
+}
+#navbarSupportedContent button{
+    color:black;
+    background-color: yellow;
+    width: 5rem;
+    border-radius: 8px;
+    border: none;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*Home*/
+
+#home{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url('wp2112199.webp');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+                
+}
+#home p{
+    font-size: 25px;
+    color: white;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.btn-signin{
+    color: white;
+    background: blue;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+/*About*/
+
+#about h1{
+    font-weight: 800;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+/*Products*/
+
+#products{
+    background: grey;
+}
+#products h1{
+    font-size: 40px;
+    font-weight:650;
+    letter-spacing: 2px;
+}
+#products img{
+    width: 300px;
+    height: 300px;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background: #e5e5e5 !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+  
+}
+ .container img{
+    width: 400px;
+    height: 100%;
+ }
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+form button{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+    color: grey;
+    padding: 15px;
+}
+footer span{
+    font-weight: bold;
+    color: blue ;
+}
+</style>
+</head>
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">DRAWINGS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Arts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button class="btn-success p-2 my-lg-0 my-2" type="submit">Sign in</button>
+    </div>
+  </nav>
+
+  <!--Home-->
+
+<section id="home">
+<h1 class="text-center">ART WORKS</h1>
+<p>Art is a line around your thoughts</p>
+<div class="input-group m-4">
+    <input type="text" class="form-control" placeholder="Email Address">
+    <button class="btn-signin">Get Started</button>
+</div>
+</section>
+
+<!--About-->
+<section id="about">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+            <img src="OIP.jpeg" class="img-fluid">
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 p-lg-4 p-2 my-3">
+            <h1>ABOUT ART</h1>
+         <p>Drawing is a form of art that involves marking a two-dimensional material like paper with lines, marks, and areas of tone. Artists use various tools, such as pencils, pastels, charcoal, and ink, to create drawings. Whether it’s a quick sketch or a detailed composition, drawing allows for expression, exploration, and communication of ideas.Drawing is a visual art that uses an instrument to mark paper or another two-dimensional surface. The instruments used to make a drawing are pencils, crayons, pens with inks, brushes with paints.In addition to its more artistic forms, drawing is frequently used in commercial illustration, animation, architecture, engineering, and technical drawing. A quick, freehand drawing, usually not intended as a finished work, is sometimes called a sketch. An artist who practices or works in technical drawing may be called a drafter, draftsman, or draughtsman.</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<section id="products">
+    <div class="container m-5">
+        <h1 class="text-center my-5">OUR ARTS</h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img src="IMG_20240702_175601.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">$100</h5>
+                      <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img src="IMG_20240702_180308.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">$100</h5>
+                      <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                  <img src="IMG_20240717_163840.jpg" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">$100</h5>
+                    <a href="#" class="btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card">
+                <img src="IMG_20240717_163047.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">$100</h5>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+              <img src="IMG_20240717_163221.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">$100</h5>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+      </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img src="IMG_20240717_162034.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">$100</h5>
+                      <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img src="IMG_20240717_162225.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">$100</h5>
+                      <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img src="IMG_20240717_163301.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">$100</h5>
+                      <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img src="IMG_20240717_162612.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">$100</h5>
+                      <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img src="IMG_20240717_162714.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">$100</h5>
+                      <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img src="IMG_20240717_162826.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">$100</h5>
+                      <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img src="IMG_20240717_162912.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">  $100</h5>
+                      <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container box">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12 my-3">
+                <img src="R.png" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <h1>CONTACT US</h1>
+                <form action="">
+                    <input type="text" class="form-control" placeholder="Enter your name">
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                    <textarea class="form-control" placeholder="Enter your message"></textarea>
+                    <button class="btn btn-primary">Send message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>Design and developed by <span>Balaganesh</span></footer>
+</body>
+</html>
