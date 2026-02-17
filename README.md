@@ -115,11 +115,11 @@
 ## 📊 GitHub & Coding Stats (Light Theme)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Balaganesh5307&show_icons=true&theme=default" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Balaganesh5307&show_icons=true&theme=default&cache_seconds=86400" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Balaganesh5307&theme=default" />
+  <img src="https://streak-stats.demolab.com?user=Balaganesh5307&theme=default&cache_seconds=86400" />
 </p>
 
 ---
