@@ -43,7 +43,7 @@
 
 ## 🧠 Tech Stack
 <p>
-  <img src="https://skillicons.dev/icons?i=python,java,c,cpp,html,css,js,react,nodejs,express,mongodb,aws" />
+  <img src="https://skillicons.dev/icons?i=python,java,c,cpp,html,css,js,react,nodejs,express,mongodb" />
 </p>
 
 ## 🛠 Tools
