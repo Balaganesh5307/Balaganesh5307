@@ -115,7 +115,7 @@
 ## 📊 GitHub & Coding Stats (Light Theme)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Balaganesh5307&show_icons=true&theme=default&cache_seconds=86400" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Balaganesh5307&show_icons=true&theme=default" />
 </p>
 
 <p align="center">
