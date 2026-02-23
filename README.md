@@ -73,10 +73,11 @@
 
 ## 🧩 Projects Showcase
 
-🔹 **Upskill – AI Learning Assistant Platform (🚧 In Progress)**  
+🔹 **Upskill – AI Learning Assistant Platform**  
 > Full stack platform to track learning progress & resources  
 👉 Tech: Full Stack, APIs, Auth  
-🔗 Status: Under development  
+🔗 Live: https://upskill-enchancer.netlify.app/  
+🔗 Repo: https://github.com/Balaganesh5307/Upskill  
 
 🔹 **Finance Tracker – FinTrackHub**  
 > Tracks income & expenses with dashboards  
